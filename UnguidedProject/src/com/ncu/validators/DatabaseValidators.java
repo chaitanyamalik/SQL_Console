@@ -49,8 +49,8 @@ public class DatabaseValidators{
 	public boolean DatabaseNotFound(String databasename){
 		File dtb = new File(System.getProperty("user.dir")+ File.separator+"databases/"+databaseName);
 		if(dtb.exists())
-			return false;
-		else
 			return true;
+		else
+			return false;
 	}
 }	

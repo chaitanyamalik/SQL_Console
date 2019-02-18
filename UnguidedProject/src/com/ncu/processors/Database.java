@@ -13,7 +13,8 @@ public class Database{
 	Properties prop = new Properties();
 	InputStream input = null;
 	DatabaseValidators dv = new DatabaseValidators();
-
+	Logger logger = Logger.getLogger(Database.class);
+	String log4jConfigFile = System.getProperty("user.dir")+ File.separator + "configs/logger/logger.properties";
 	/*public static boolean emptyDatabaseName(String dbname){
 		if (dbname == null || dbname.trim().isEmpty()) {
 			return true;
@@ -25,33 +26,38 @@ public class Database{
 	public void createDatabase(){
 		//Logger logger = Logger.getLogger(Database.class);
 		try{
+			Logger logger = Logger.getLogger(Database.class);
+			String log4jConfigFile = System.getProperty("user.dir")+ File.separator + "configs/logger/logger.properties";
+			PropertyConfigurator.configure(log4jConfigFile);
 			Scanner in = new Scanner(System.in);
 			input = new FileInputStream(configMessages);
 			prop.load(input);
-			System.out.print("Enter database name:- ");
+			logger.info("Enter database name:- ");
 			String dbname = in.nextLine();
 			if(!dv.EmptyDatabaseName(dbname)){
 				File dtb = new File(System.getProperty("user.dir")+ File.separator+"databases/"+dbname);
 				if(!dv.DatabaseExists(dbname)){
 					if(dtb.mkdir()){
-						System.out.print("Database created successfully!");
+						logger.info("Database created successfully!\n");
 					}
 				}
 				else{
 					throw new DatabaseExistsException("");
 				}
 			}
-			else
+			else{
 				throw new EmptyDatabaseNameException("");
+			}
+
 		}
 		catch(EmptyDatabaseNameException e){
-			System.out.println(prop.getProperty("EmptyDatabaseNameException"));
+			logger.error(prop.getProperty("EmptyDatabaseNameException")+"\n");
 		}
 		catch(DatabaseExistsException e){
-			System.out.println(prop.getProperty("DatabaseExistsException"));
+			logger.error(prop.getProperty("DatabaseExistsException")+"\n");
 		}
 		catch(IOException e){
-			e.printStackTrace();
+			logger.error(e+"\n");
 		}
 	}
 
@@ -59,25 +65,36 @@ public class Database{
 		//Logger logger = Logger.getLogger(Database.class);
 		Scanner in = new Scanner(System.in);
 		try{
+			Logger logger = Logger.getLogger(Database.class);
+			String log4jConfigFile = System.getProperty("user.dir")+ File.separator + "configs/logger/logger.properties";
+			PropertyConfigurator.configure(log4jConfigFile);
 			input = new FileInputStream(configMessages);
 			prop.load(input);
-			System.out.print("Enter database name:- ");
+			logger.info("Enter database name:- ");
 			String dbname = in.nextLine();
-			File dtb = new File(System.getProperty("user.dir")+ File.separator+"databases/"+dbname);
-			if(!dv.DatabaseNotFound(dbname)){
-				dtb.delete();
-				System.out.println("Database deleted successfully !");
+			if(!dv.EmptyDatabaseName(dbname)){
+				File dtb = new File(System.getProperty("user.dir")+ File.separator+"databases/"+dbname);
+				if(dv.DatabaseExists(dbname)){
+					dtb.delete();
+					logger.info("Database deleted successfully !\n");
+				}
+				else{
+					dtb.mkdir();
+					throw new DatabaseNotFoundException("");
+				}
 			}
 			else{
-				dtb.mkdir();
-				throw new DatabaseNotFoundException("");
-			}
+				throw new EmptyDatabaseNameException("");
+			}	 
 		}
 		catch(DatabaseNotFoundException e){
-			System.out.println(prop.getProperty("DatabaseNotFoundException"));
+			logger.error(prop.getProperty("DatabaseNotFoundException")+"\n");
+		}
+		catch(EmptyDatabaseNameException e){
+			logger.error(prop.getProperty("EmptyDatabaseNameException")+"\n");
 		}
 		catch(IOException e){
-			e.printStackTrace();
+			logger.error(e+"\n");
 		}
 	}
 }

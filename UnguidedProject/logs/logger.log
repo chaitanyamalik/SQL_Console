@@ -1,0 +1,164 @@
+2019-02-17 15:36:53 INFO  Database:35 - Enter database name:- 
+2019-02-17 15:37:12 ERROR Database:55 - Database already exists...
+
+2019-02-17 15:37:12 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-17 16:00:21 INFO  Table:23 - Enter database name:- 
+2019-02-17 16:00:27 ERROR Table:82 - Empty Database Is Not Acceptable....
+
+2019-02-17 16:00:27 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-17 18:53:07 INFO  Database:33 - Enter database name:- 
+2019-02-17 18:53:10 ERROR DatabaseValidators:69 - Empty Database Is Not Acceptable....
+
+2019-02-17 18:53:10 INFO  Database:33 - Enter database name:- 
+2019-02-17 18:53:17 ERROR DatabaseValidators:73 - Database already exists...
+
+2019-02-17 18:53:17 INFO  Database:33 - Enter database name:- 
+2019-02-17 18:54:37 ERROR DatabaseValidators:77 - Database wasn't found...
+
+2019-02-17 18:54:37 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:06:32 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:06:35 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:06:35 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:06:44 ERROR DatabaseValidators:75 - Database already exists...
+
+2019-02-17 19:06:44 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:06:53 INFO  Database:40 - Database created successfully!
+
+2019-02-17 19:06:53 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-17 19:19:18 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:19:24 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:19:24 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:19:39 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:19:39 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:19:49 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:19:49 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:20:47 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:20:47 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:25:34 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:25:38 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:25:38 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:25:42 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:25:42 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:25:45 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:25:45 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:28:11 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:28:13 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:28:13 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:28:20 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:28:20 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:28:23 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:28:23 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:28:45 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:28:45 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:29:46 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:29:48 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:29:48 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:29:52 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:29:52 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:29:56 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:29:56 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:30:27 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:30:30 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:30:30 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:30:43 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:30:43 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:30:46 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:30:46 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:40:28 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:40:30 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:40:30 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:40:35 ERROR DatabaseValidators:75 - Database already exists...
+
+2019-02-17 19:40:35 INFO  Database:33 - Enter database name:- 
+2019-02-17 19:40:39 INFO  Database:40 - Database created successfully!
+
+2019-02-17 19:40:39 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-17 19:43:53 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:43:54 ERROR DatabaseValidators:71 - Empty Database Is Not Acceptable....
+
+2019-02-17 19:43:54 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:43:58 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:43:58 INFO  Database:54 - Enter database name:- 
+2019-02-17 19:44:01 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-17 19:44:01 INFO  Database:54 - Enter database name:- 
+2019-02-18 09:59:52 INFO  Database:35 - Enter database name:- 
+2019-02-18 09:59:55 INFO  Database:41 - Database created successfully!
+
+2019-02-18 09:59:55 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:00:02 INFO  Database:71 - Enter database name:- 
+2019-02-18 10:00:04 ERROR Database:84 - Database wasn't found...
+
+2019-02-18 10:00:04 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:16:17 INFO  Database:71 - Enter database name:- 
+2019-02-18 10:16:20 INFO  Database:76 - Database deleted successfully !
+
+2019-02-18 10:16:20 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:19:32 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:21:15 INFO  Table:23 - Enter database name:- 
+2019-02-18 10:21:18 INFO  Table:34 - Enter table name:- 
+2019-02-18 10:21:55 INFO  Table:45 - Enter Column 1:- 
+2019-02-18 10:21:59 INFO  Table:45 - Enter Column 2:- 
+2019-02-18 10:22:00 INFO  Table:45 - Enter Column 3:- 
+2019-02-18 10:22:01 INFO  Table:53 - Table Created Successfully !!
+
+2019-02-18 10:22:01 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:22:16 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:25:08 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:26:30 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:29:33 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:31:03 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:32:13 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:35:25 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:36:03 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:39:25 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:40:16 INFO  Database:35 - Enter database name:- 
+2019-02-18 10:40:19 INFO  Database:41 - Database created successfully!
+
+2019-02-18 10:40:19 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:40:28 INFO  Table:23 - Enter database name:- 
+2019-02-18 10:40:31 INFO  Table:34 - Enter table name:- 
+2019-02-18 10:40:35 INFO  Table:45 - Enter Column 1:- 
+2019-02-18 10:40:38 INFO  Table:45 - Enter Column 2:- 
+2019-02-18 10:40:39 INFO  Table:53 - Table Created Successfully !!
+
+2019-02-18 10:40:39 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:41:17 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:41:43 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:41:51 INFO  Database:71 - Enter database name:- 
+2019-02-18 10:41:53 INFO  Database:76 - Database deleted successfully !
+
+2019-02-18 10:41:53 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 10:56:11 INFO  Database:54 - Enter database name:- 
+2019-02-18 10:56:14 ERROR DatabaseValidators:79 - Database wasn't found...
+
+2019-02-18 10:56:14 INFO  Database:54 - Enter database name:- 
+2019-02-18 11:08:30 INFO  Database:73 - Enter database name:- 
+2019-02-18 11:08:42 ERROR Database:94 - Empty Database Is Not Acceptable....
+
+2019-02-18 11:08:42 INFO  SQLConsole:42 - Do you want to perform some more functions ? Press N to exit or press any key to continue :- 
+2019-02-18 11:10:12 INFO  Database:35 - Enter database name:- 
+2019-02-18 11:10:14 INFO  Database:41 - Database created successfully!
+
+2019-02-18 11:18:01 ERROR Table:138 - Empty Database Is Not Acceptable....
+

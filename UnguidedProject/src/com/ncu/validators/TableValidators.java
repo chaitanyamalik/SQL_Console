@@ -39,7 +39,7 @@ public class TableValidators{
 
 	/* Generate "DatabaseAlreadyExists" Exception if user given file already exists into directory */
 	public boolean TableExists(String databaseName, String tableName){
-		File file = new File(System.getProperty("user.dir")+ File.separator+"databases"+databaseName+File.separator+tableName);
+		File file = new File(System.getProperty("user.dir")+ File.separator+"databases"+databaseName+File.separator+tableName+".csv");
 		if(file.exists())
 			return true;
 		else
@@ -48,10 +48,10 @@ public class TableValidators{
 	}
 	/*Generate "DatabaseNotFound" Exception if user given file is not Available */
 	public boolean TableNotFound(String databasename, String tableName){
-		File file = new File(System.getProperty("user.dir")+ File.separator+"databases"+databaseName+File.separator+tableName);
+		File file = new File(System.getProperty("user.dir")+ File.separator+"databases"+databaseName+File.separator+tableName+".csv");
 		if(file.exists())
-			return false;
-		else
 			return true;
+		else
+			return false;
 	}
 }

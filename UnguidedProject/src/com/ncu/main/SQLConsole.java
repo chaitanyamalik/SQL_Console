@@ -1,15 +1,19 @@
 package com.ncu.main;
+import java.io.*;
 import java.util.*;
 import com.ncu.processors.*;
-import com.ncu.validators.*;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 public class SQLConsole{
 	public static void main(String[] args) {
 		char ch;
+		Logger logger = Logger.getLogger(SQLConsole.class);
 		Scanner in = new Scanner(System.in);
-		System.out.println("\n\n***************************************");
+		
+		String log4jConfigFile = System.getProperty("user.dir")+ File.separator + "configs\\logger\\logger.properties";
+		PropertyConfigurator.configure(log4jConfigFile);
+		System.out.println("***************************************");
 		System.out.println("***************************************");
 		System.out.println(">>            SQL CONSOLE            <<");
 		System.out.println("***************************************");
@@ -25,7 +29,6 @@ public class SQLConsole{
 			int menu = in.nextInt();
 			Database db = new Database();
 			Table tab = new Table(); 
-			String dbname = null;
 			switch(menu){
 				case 1 : db.createDatabase();
 				break;
@@ -34,8 +37,6 @@ public class SQLConsole{
 				case 3 : tab.createTable();
 				break;
 				case 4 : tab.deleteTable();
-				break;
-				default : System.out.println("Invalid choice");
 				break; 
 			}
 			System.out.print("Do you want to perform some more functions ? Press N to exit or press any key to continue :- ");
